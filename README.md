@@ -1,15 +1,12 @@
 <div align="center">
-<img src="https://github.com/axa-group/nlp.js/raw/master/screenshots/nlplogo.gif" width="925" height="auto"/>
 </div>
 
 # NLP.js
 
-[![Build Status](https://travis-ci.com/axa-group/nlp.js.svg?branch=master)](https://travis-ci.com/axa-group/nlp.js)
-[![Coverage Status](https://coveralls.io/repos/github/axa-group/nlp.js/badge.svg?branch=master)](https://coveralls.io/github/axa-group/nlp.js?branch=master)
-[![NPM version](https://img.shields.io/npm/v/node-nlp.svg?style=flat)](https://www.npmjs.com/package/node-nlp)
-[![NPM downloads](https://img.shields.io/npm/dm/node-nlp.svg?style=flat)](https://www.npmjs.com/package/node-nlp) [![Greenkeeper badge](https://badges.greenkeeper.io/axa-group/nlp.js.svg)](https://greenkeeper.io/)
+[![NPM version](https://img.shields.io/npm/v/pv-node-nlp.svg?style=flat)](https://www.npmjs.com/package/pv-node-nlp)
+[![NPM downloads](https://img.shields.io/npm/dm/pv-node-nlp.svg?style=flat)](https://www.npmjs.com/package/pv-node-nlp) 
 
-"NLP.js" is a general natural language utility for nodejs. Currently supporting:
+"pv-node-nlp.js" is a general natural language utility for nodejs, derived from the version 3.x of node-nlp.
 
 - Guess the language of a phrase
 - Fast levenshtein distance of two strings
@@ -22,9 +19,6 @@
 - NLP Manager: a tool able to manage several languages, the Named Entities for each language, the utterance, and intents for the training of the classifier, and for a given utterance return the entity extraction, the intent classification and the sentiment analysis. Also, it is able to maintain a Natural Language Generation Manager for the answers.
 - 34 languages with stemmers supported: Arabic (ar), Armenian (hy), Bengali (bn), Basque (eu), Catala (ca), Chinese (zh), Czech (cs), Danish (da), Dutch (nl), English (en), Farsi (fa), Finnish (fi), French (fr), Galician (gl), German (de), Greek (el), Hindi (hi), Hungarian (hu), Indonesian (id), Irish (ga), Italian (it), Japanese (ja), Norwegian (no), Portuguese (pt), Romanian (ro), Russian (ru), Slovene (sl), Spanish (es), Swedish (sv), Tagalog (tl), Tamil (ta), Thai (th), Turkish (tr), Ukrainian (uk)
 - Any other language is supported through tokenization, even fantasy languages
-<div align="center">
-<img src="https://github.com/axa-group/nlp.js/raw/master/screenshots/hybridbot.gif" width="auto" height="auto"/>
-</div>
 
 ## New in version 3!
 
@@ -114,16 +108,9 @@ The version 3 comes with some important changes, mainly focused on improving per
 If you're looking to use NLP.js in your node application, you can install via NPM like so:
 
 ```bash
-    npm install node-nlp
+    npm install pv-node-nlp
 ```
 
-## React Native
-
-There is a version of NLP.js that works in React Native, so you can build chatbots that can be trained and executed on the mobile even without internet. You can install it via NPM:
-
-```bash
-    npm install node-nlp-rn
-```
 
 Some Limitations:
 - No Chinese
