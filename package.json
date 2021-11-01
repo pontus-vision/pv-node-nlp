@@ -1,6 +1,6 @@
 {
   "name": "pv-node-nlp",
-  "version": "3.11.2",
+  "version": "3.12.0",
   "description": "Library for NLU (Natural Language Understanding) done in Node.js (fork from node-nlp before they went for the injection route",
   "main": "lib/index.js",
   "scripts": {
