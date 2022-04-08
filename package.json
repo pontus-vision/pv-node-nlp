@@ -1,6 +1,6 @@
 {
   "name": "pv-node-nlp",
-  "version": "3.12.5",
+  "version": "3.12.6",
   "description": "Library for NLU (Natural Language Understanding) done in Node.js (fork from node-nlp before they went for the injection route",
   "main": "lib/index.js",
   "scripts": {
@@ -31,6 +31,10 @@
     }
   ],
   "license": "MIT",
+  "resolutions": {
+    "**/**/async": "^3.2.2"
+  },
+ 
   "devDependencies": {
     "browserify": "^16.5.0",
     "coveralls": "^3.0.6",
