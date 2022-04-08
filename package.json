@@ -1,6 +1,6 @@
 {
   "name": "pv-node-nlp",
-  "version": "3.12.6",
+  "version": "3.12.7",
   "description": "Library for NLU (Natural Language Understanding) done in Node.js (fork from node-nlp before they went for the injection route",
   "main": "lib/index.js",
   "scripts": {
@@ -58,7 +58,8 @@
     "esprima": "^4.0.1",
     "kuromoji": "^0.1.2",
     "novel-segment": "^2.5.0",
-    "xlsx": "^0.17.3"
+    "xlsx": "^0.17.3",
+    "async": "^3.2.2"
   },
   "keywords": [
     "natural language processing",
